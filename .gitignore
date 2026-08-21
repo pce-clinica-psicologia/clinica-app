@@ -1,3 +1,55 @@
+# ==========================================
+# 1. Arquivos de Sistema Operacional (OS)
+# ==========================================
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# 2. IDEs e Editores de Código (VS Code, IntelliJ, Eclipse)
+# ==========================================
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+
+# ==========================================
+# 3. Backend (Java / Spring Boot / Maven)
+# ==========================================
+
 # Compiled class file
 *.class
 
@@ -10,7 +62,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -22,3 +74,54 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven build folders and files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Nota: O maven-wrapper.properties é útil versionar, mas ignoramos o .jar compilado
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# 4. Frontend (Node.js / React)
+# ==========================================
+
+# Dependências
+node_modules/
+/.pnp
+.pnp.js
+
+# Builds e Produção
+/client/build/
+/client/dist/
+out/
+
+# Logs do Node/NPM/Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testes
+coverage/
+.nyc_output/
+
+# Caches
+.eslintcache
+.stylelintcache
+
+# ==========================================
+# 5. Variáveis de Ambiente e Segurança
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
