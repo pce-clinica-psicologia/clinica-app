@@ -25,6 +25,7 @@ Garantem que as menores partes do código funcionem conforme o esperado, sem dep
 *   **Client:** Verificação da renderização de componentes React e lógicas de estado.
 
 ### Testes Ponta a Ponta (E2E) com Cypress
+path: ./client/cypress
 Validam a integração real entre o client, o server e o banco de dados. O Cypress simula um usuário humano abrindo o navegador, clicando na interface, preenchendo formulários de pacientes e verificando se o resultado final aparece corretamente na tela.
 
 ---
