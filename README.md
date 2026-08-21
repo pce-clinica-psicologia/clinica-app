@@ -38,3 +38,5 @@ Nossa esteira de automação no GitHub Actions é configurada para ser eficiente
 *   **Pipeline do Client:** Acionada apenas quando arquivos na pasta `/client` são modificados. Executa os testes do React e o processo de build do Node.
 *   **Pipeline do Server:** Acionada apenas quando arquivos na pasta `/server` são modificados. Executa o Maven, compila o código Java e roda os testes do JUnit.
 *   **Vantagem:** Se uma squad alterar apenas uma cor em um botão no React, o GitHub não gastará tempo nem recursos recompilando toda a API em Java.
+
+path: ./github/workflows/
