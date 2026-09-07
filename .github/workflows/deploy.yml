@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: production
+    environment: Dev
     steps:
       - name: Deploy via SSH na Oracle VM
         uses: appleboy/ssh-action@v1.0.3
